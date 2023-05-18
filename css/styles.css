@@ -83,8 +83,6 @@ ig {
 
 .recipe-container {
   width:fit-content;
-  /* display: flex; */
-  /* flex-direction:column; */
   width: 100%;
   height:auto;
   justify-content: center;
@@ -104,17 +102,9 @@ ig {
 
 .recipes-list {
   list-style-type: none;
-  padding-left:20px;
-
 }
 
-.recipes-list li::marker {
-  /* list-style-image: url("../assets/icons/food-dinner-svgrepo-com.svg"); */
-  content: url("../assets/icons/food-dinner-svgrepo-com.svg");
-  /* background-image: url("../assets/icons/food-dinner-svgrepo-com.svg"); */
-  font-size: 1.2em;
+.recipes-list li {
+  text-align: center;
+  margin: 4px auto;
 }
-
-
-
-
